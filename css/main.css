@@ -1,3 +1,50 @@
 h1 {
     color:red
 }
+
+#navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(226, 121, 0);
+}
+
+li{
+    float:left
+}
+
+li a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 12px 30px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    background-color: rgb(194, 0, 0);
+    color:rgb(226, 121, 0)
+  }
+  
+  .active {
+    background-color: rgb(194, 0, 0);
+    color:rgb(226, 121, 0)
+  }
+
+  .header{
+      background-color: rgb(226, 121, 0);
+      margin-bottom:-1%;
+      padding: 7%;
+  }
+
+  #logo{
+    position:absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 8px;
+    right: 670px;
+    width: 200px;
+    height: 200px;
+  }
