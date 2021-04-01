@@ -10,17 +10,65 @@
     <link href="css/main.css" rel="stylesheet">
 
 
-    <title>Hello, world!</title>
+    <title>Ming's Diner</title>
   </head>
   <body>
     <div class="header"> <img src="images/logo1.png" alt="Ming's Diner Logo" id="logo"> </div>
-    <ul id="navbar">
-        <li><a class="active" href="#index">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
 
+    <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="pic1" src="images/menu.jpg" class="d-block w-100" alt="Menu">
+            <div class="carousel-caption d-none d-md-block">
+                <form action="menu.html">
+                    <button id="carousel-button"><h4>Go to Menu</h4></button>
+                </form>
+                <p>Take a look at our menu</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img id="pic2" src="images/ordernow.jpg" class="d-block w-100" alt="Order Now">
+            <div class="carousel-caption d-none d-md-block">
+                <h4>Order Now</h4>
+                <p>Hungry? Order now!</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img id="pic3" src="images/contact.jpg" class="d-block w-100" alt="Contact Us">
+            <div class="carousel-caption d-none d-md-block">
+                <form action="contact.html">
+                    <button id="carousel-button"><h4>Contact Us!</h4></button>
+                </form>
+                <p>Tell us how we are doing</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ad commodi, ipsam illo beatae nemo deserunt, sit doloremque accusantium quod animi quidem. Libero doloremque repellat adipisci impedit explicabo dolorum fugit?</p>
+      </div>
+      
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
